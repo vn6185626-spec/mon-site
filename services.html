@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chez Beauté</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a href="">
+                <img src="mes images/logo.png" class="lien-icone"  alt="" width="100px" height="70px">
+            </a>
+
+            <div>
+                <a href="index.html">Acceuil</a>
+                <a href="services.html">Menu de la semaine</a>
+                <a href="contact.html">contact</a>
+                <a href="a-propos.html">A propos</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="products">
+            <div class="wrap">
+                <div class="center-head">
+                    <p class="eyebrow">Menu de la semaine</p>
+                    <h2>Nos Plats</h2>
+                </div>
+
+                <div class="filters">
+                    <button type="button" class="filter" data-categorie="Lundi">Lundi</button>
+                    <button type="button" class="filter" data-categorie="Mardi">Mardi</button>
+                    <button type="button" class="filter" data-categorie="Mercredi">Mercredi</button>
+                    <button type="button" class="filter" data-categorie="Jeudi">Jeudi</button>
+                    <button type="button" class="filter" data-categorie="Vendredi">Vendredi</button>
+                </div>
+                <div class="products catalog">
+
+                    <div class="products">
+                        <h2>Menu du jour</h2> 
+
+                    <article class="product"
+                    data-nom="riz au poisson blanc"
+                    data-prix="1500"
+                    data-categorie="Lundi"
+                    data-matiere="poisson, légumes, riz ..."
+                    data-texte="le riz est vendu par plat">
+                    <div class="shot">
+                        <img class="cover" loading="lazy" src="mes images/Riz au poisson blanc.jpg" alt="">
+                        <button type="button" class="add">Ajouter au panier</button>
+                    </div>
+                    <h3>Riz au poisson blanc</h3>
+                    <p class="price">1500fcfa</p>
+                    </article>
+
+                    <article class="product"
+                    data-nom="Mafé poisson"
+                    data-prix="2000"
+                    data-categorie="Lundi"
+                    data-matiere="poisson, légumes, riz ..."
+                    data-texte="le mafé est vendu par plat">
+                    <div class="shot">
+                        <img class="cover" loading="lazy" src="mes images/Mafé poisson.jpg" alt="">
+                        <button type="button" class="add">Ajouter au panier</button>
+                    </div>
+                    <h3>Mafé poisson</h3>
+                    <p class="price">2000fcfa</p>
+                    </article>
+
+                    <article class="product"
+                    data-nom="Domoda poisson"
+                    data-prix="2000"
+                    data-categorie="Lundi"
+                    data-matiere="poisson, légumes, riz ..."
+                    data-texte="le domoda est vendu par plat">
+                    <div class="shot">
+                        <img class="cover" loading="lazy" src="mes images/Domoda.jpg" alt="">
+                        <button type="button" class="add">Ajouter au panier</button>
+                    </div>
+                    <h3>Domoda poisson</h3>
+                    <p class="price">2000fcfa</p>
+                    </article>
+
+                    <h2>Menu du soir</h2>
+                        <article class="product"
+                           data-nom="Poisson frit"
+                           data-prix="2000"
+                           data-categorie="Lundi"
+                           data-matiere="poisson,salade, crudité"
+                           data-texte="ce sont deux poissons dans le plat">
+                            <div class="shot">
+                              <img class="cover" loading="lazy"src="mes images/Poisson frit.jpg" alt="">
+                              <button type="button" class="add">Ajouter au panier</button>
+                            </div>
+                            <h3>Poisson frit</h3>
+                            <p class="price">2000fcfa</p>
+                        </article>
+
+                        <article class="product"
+                          data-nom="Brochette de viande"
+                          data-prix="2000"
+                          data-categorie="Lundi"
+                          data-matiere="Viande,salade,crudité"
+                          data-texte="c'est trois brochettes">
+                          <div class="shot">
+                            <img class="cover" loading="lazy" src="mes images/Brochette de viande.jpg" alt="">
+                            <button type="button" class="add">Ajouter au panier</button>
+                          </div>
+                          <h3>Brochette de viande</h3>
+                          <p class="price">2000fcfa</p>
+                        </article>
+
+                        <article class="product"
+                           data-nom="Brochette poulet"
+                           data-prix="2000"
+                           data-categorie="Lundi"
+                           data-matiere="poulet,salade,crudité"
+                           data-texte="C'est trois brochettes">
+                          <div class="shot">
+                            <img class="cover" loading="lazy" src="mes images/Brochette poulet.jpg" alt="">
+                            <button type="button" class="add">Ajouter au panier</button>
+                          </div>
+                          <h3>Brochette poulet</h3>
+                          <p class="price">2000fcfa</p>
+                         </article>
+                    </div>
+
+                    <div class="products">
+                         <h2>Menu du jour</h2>
+                    <article class="product"
+                    data-nom="riz au poisson rouge"
+                    data-prix="1500"
+                    data-categorie="Mardi"
+                    data-matiere="poisson, légumes, riz ..."
+                    data-texte="le riz est vendu par plat">
+                    <div class="shot">
+                        <img class="cover" loading="lazy" src="mes images/Riz au poisson rouge.jpg" alt="">
+                        <button type="button" class="add">Ajouter au panier</button>
+                    </div>
+                    <h3>Riz au poisson rouge</h3>
+                    <p class="price">1500fcfa</p>
+                    </article>
+
+                    <article class="product"
+                    data-nom="Paella"
+                    data-prix="2000"
+                    data-categorie="Mardi"
+                    data-matiere="poisson, légumes, riz ..."
+                    data-texte="le paella est vendu par plat">
+                    <div class="shot">
+                        <img class="cover" loading="lazy" src="mes images/Paella.jpg" alt="">
+                        <button type="button" class="add">Ajouter au panier</button>
+                    </div>
+                    <h3>Paella</h3>
+                    <p class="price">2000fcfa</p>
+                    </article>
+
+                    <article class="product"
+                    data-nom="Soupe kandji"
+                    data-prix="2000"
+                    data-categorie="Mardi"
+                    data-matiere="poisson, légumes, riz ..."
+                    data-texte="le soupe kandji se vend par plat">
+                    <div class="shot">
+                        <img class="cover" loading="lazy" src="mes images/Soupe kandji.jpg" alt="">
+                        <button type="button" class="add">Ajouter au panier</button>
+                    </div>
+                    <h3>Soupe kandji</h3>
+                    <p class="price">2000fcfa</p>
+                    </article>
+                    
+                     <h2>Menu du soir</h2>
+                        <article class="product"
+                           data-nom="Athiéké poisson"
+                           data-prix="2000"
+                           data-categorie="Mardi"
+                           data-matiere="poisson,salade, crudité"
+                           data-texte="l'athiéké se vend par plat">
+                            <div class="shot">
+                              <img class="cover" loading="lazy" src="mes images/Athiéké poisson.jpg" alt="">
+                              <button type="button" class="add">Ajouter au panier</button>
+                            </div>
+                            <h3>Athiéké poisson</h3>
+                            <p class="price">2000fcfa</p>
+                        </article>
+
+                        <article class="product"
+                          data-nom="vermicelle au poulet"
+                          data-prix="2000"
+                          data-categorie="Mardi"
+                          data-matiere="poulet,vermicelle,crudité"
+                          data-texte="le vermicelle se vend par plat">
+                          <div class="shot">
+                            <img class="cover" loading="lazy" src="mes images/Vermicelle au poulet.jpg" alt="">
+                            <button type="button" class="add">Ajouter au panier</button>
+                          </div>
+                          <h3>Vermicelle au poulet</h3>
+                          <p class="price">2000fcfa</p>
+                        </article>
+
+                        <article class="product"
+                           data-nom="Couscous au poulet"
+                           data-prix="2000"
+                           data-categorie="Mardi"
+                           data-matiere="poulet,Couscous,crudité"
+                           data-texte="le couscous se vend par plat">
+                          <div class="shot">
+                            <img class="cover" loading="lazy" src="mes images/Couscous au poulet.jpg" alt="">
+                            <button type="button" class="add">Ajouter au panier</button>
+                          </div>
+                          <h3>Couscous au poulet</h3>
+                          <p class="price">2000fcfa</p>
+                         </article>
+                    </div> 
+
+                    <div class="products">
+                         <h2>Menu du jour</h2>
+                    <article class="product"
+                    data-nom="Mbakhalou saloum"
+                    data-prix="2000"
+                    data-categorie="Mercredi"
+                    data-matiere="Riz, arachide, guerté"
+                    data-texte="le Mbakhalou saloum se vend par plat">
+                    <div class="shot">
+                        <img class="cover" loading="lazy" src="mes images/Mbakhalou saloum.jpg" alt="">
+                        <button type="button" class="add">Ajouter au panier</button>
+                    </div>
+                    <h3>Mbakhalou saloum</h3>
+                    <p class="price">2000fcfa</p>
+                    </article>
+
+                    <article class="product"
+                    data-nom="Mbakhal"
+                    data-prix="2000"
+                    data-categorie="Mercredi"
+                    data-matiere="riz, poisson, légumes"
+                    data-texte="le Mbakhal se vend par plat">
+                    <div class="shot">
+                        <img class="cover" loading="lazy" src="mes images/Mbakhal.jpg" alt="">
+                        <button type="button" class="add">Ajouter au panier</button>
+                    </div>
+                    <h3>Mbakhal</h3>
+                    <p class="price">2000fcfa</p>
+                    </article>
+
+                    <article class="product"
+                    data-nom="Dakhine"
+                    data-prix="2000"
+                    data-categorie="Mercredi"
+                    data-matiere="riz,arachide"
+                    data-texte="le dakhine se vend par plat">
+                    <div class="shot">
+                        <img class="cover" loading="lazy" src="mes images/Dakhine.jpg" alt="">
+                        <button type="button" class="add">Ajouter au panier</button>
+                    </div>
+                    <h3>Dakhine</h3>
+                    <p class="price">2000fcfa</p>
+                    </article>
+                    
+                     <h2>Menu du soir</h2>
+                        <article class="product"
+                           data-nom="Petit pois"
+                           data-prix="2000"
+                           data-categorie="Mercredi"
+                           data-matiere="petit pois, viande,pomme de terre"
+                           data-texte="le petit pois se vend par plat">
+                            <div class="shot">
+                              <img class="cover" loading="lazy" src="mes images/Petit pois.jpg" alt="">
+                              <button type="button" class="add">Ajouter au panier</button>
+                            </div>
+                            <h3>Petit pois</h3>
+                            <p class="price">2000fcfa</p>
+                        </article>
+
+                        <article class="product"
+                          data-nom="Soupe"
+                          data-prix="2000"
+                          data-categorie="Mercredi"
+                          data-matiere="viande, pomme de terre"
+                          data-texte="la soupe se vend par plat">
+                          <div class="shot">
+                            <img class="cover" loading="lazy" src="mes images/Soupe.jpg" alt="">
+                            <button type="button" class="add">Ajouter au panier</button>
+                          </div>
+                          <h3>Soupe</h3>
+                          <p class="price">2000fcfa</p>
+                        </article>
+
+                        <article class="product"
+                           data-nom="poulet"
+                           data-prix="2000"
+                           data-categorie="Mercredi"
+                           data-matiere="poulet"
+                           data-texte="le poulet est vendu par partie">
+                          <div class="shot">
+                            <img class="cover" loading="lazy" src="mes images/Poulet.jpg" alt="">
+                            <button type="button" class="add">Ajouter au panier</button>
+                          </div>
+                          <h3>Poulet</h3>
+                          <p class="price">2000fcfa</p>
+                         </article> 
+                    </div>      
+                        
+                    <div class="products">
+                        <h2>Menu du jour</h2>
+                    <article class="product"
+                    data-nom="Yassa poulet"
+                    data-prix="2000"
+                    data-categorie="Jeudi"
+                    data-matiere="riz, poulet,oignon"
+                    data-texte="le Yassa se vend par plat">
+                    <div class="shot">
+                        <img class="cover" loading="lazy" src="mes images/Yassa poulet.jpg" alt="">
+                        <button type="button" class="add">Ajouter au panier</button>
+                    </div>
+                    <h3>Yassa poulet</h3>
+                    <p class="price">2000fcfa</p>
+                    </article>
+
+                    <article class="product"
+                    data-nom="Mafé viande"
+                    data-prix="2000"
+                    data-categorie="Jeudi"
+                    data-matiere="riz, viande,arachide"
+                    data-texte="le mafé se vend par plat">
+                    <div class="shot">
+                        <img class="cover" loading="lazy" src="mes images/Mafé viande.jpg" alt="">
+                        <button type="button" class="add">Ajouter au panier</button>
+                    </div>
+                    <h3>Mafé viande</h3>
+                    <p class="price">2000fcfa</p>
+                    </article>
+
+                    <article class="product"
+                    data-nom="Thiéré"
+                    data-prix="2000"
+                    data-categorie="Jeudi"
+                    data-matiere="thiéré,sauce"
+                    data-texte="le thiéré se vend par plat">
+                    <div class="shot">
+                        <img class="cover" loading="lazy" src="mes images/Thiéré.jpg" alt="">
+                        <button type="button" class="add">Ajouter au panier</button>
+                    </div>
+                    <h3>Thiéré</h3>
+                    <p class="price">2000fcfa</p>
+                    </article>
+                    
+                     <h2>Menu du soir</h2>
+                        <article class="product"
+                           data-nom="Riz au lait"
+                           data-prix="1000"
+                           data-categorie="Jeudi"
+                           data-matiere="lait caillé,bouilli"
+                           data-texte="le riz au lait se vend par bol">
+                            <div class="shot">
+                              <img class="cover" loading="lazy" src="mes images/Riz au lait.jpg" alt="">
+                              <button type="button" class="add">Ajouter au panier</button>
+                            </div>
+                            <h3>Riz au lait</h3>
+                            <p class="price">1000fcfa</p>
+                        </article>
+
+                        <article class="product"
+                          data-nom="Couscous au lait"
+                          data-prix="1000"
+                          data-categorie="Jeudi"
+                          data-matiere="couscous, lait caill"
+                          data-texte="le couscous au lait se vend par bol">
+                          <div class="shot">
+                            <img class="cover" loading="lazy" src="mes images/Couscous au lait.jpg" alt="">
+                            <button type="button" class="add">Ajouter au panier</button>
+                          </div>
+                          <h3>Couscous au lait</h3>
+                          <p class="price">1000fcfa</p>
+                        </article>
+
+                        <article class="product"
+                           data-nom="Thiakry"
+                           data-prix="1000"
+                           data-categorie="Jeudi"
+                           data-matiere="lait caillé, thiakry"
+                           data-texte="le thiakry se vend par bol">
+                          <div class="shot">
+                            <img class="cover" loading="lazy" src="mes images/thiakry.jpg" alt="">
+                            <button type="button" class="add">Ajouter au panier</button>
+                          </div>
+                          <h3>Thiakry</h3>
+                          <p class="price">1000fcfa</p>
+                         </article> 
+                    </div>
+                
+                    <div class="products">
+                        <h2>Menu du jour</h2>
+                    <article class="product"
+                    data-nom="Riz à la viande"
+                    data-prix="2000"
+                    data-categorie="Vendredi"
+                    data-matiere="riz , viande"
+                    data-texte="le riz au viande se vend par plat">
+                    <div class="shot">
+                        <img class="cover" loading="lazy"  src="mes images/Riz à la viande.jpg" alt="">
+                        <button type="button" class="add">Ajouter au panier</button>
+                    </div>
+                    <h3>Riz à la viande</h3>
+                    <p class="price">2000fcfa</p>
+                    </article>
+
+                    <article class="product"
+                    data-nom="Riz au poisson blanc"
+                    data-prix="1500"
+                    data-categorie="Vendredi"
+                    data-matiere="riz , poisson,légumes"
+                    data-texte="le riz au poisson blanc se vend par plat">
+                    <div class="shot">
+                        <img class="cover" loading="lazy"  src="mes images/Riz au poisson blanc.jpg" alt="">
+                        <button type="button" class="add">Ajouter au panier</button>
+                    </div>
+                    <h3>Riz au poisson blanc</h3>
+                    <p class="price">1500fcfa</p>
+                    </article>
+
+                    <article class="product"
+                    data-nom="Riz au poisson rouge"
+                    data-prix="1500"
+                    data-categorie="Vendredi"
+                    data-matiere="riz, poisson,légumes"
+                    data-texte="le riz au poisson rouge se vend par plat">
+                    <div class="shot">
+                        <img class="cover" loading="lazy"  src="mes images/Riz au poisson rouge.jpg" alt="">
+                        <button type="button" class="add">Ajouter au panier</button>
+                    </div>
+                    <h3></h3>
+                    <p class="price">1500fcfa</p>
+                    </article>
+                    
+                     <h2>Menu du soir</h2>
+                        <article class="product"
+                           data-nom="Athiéké poulet"
+                           data-prix="2000"
+                           data-categorie="Vendredi"
+                           data-matiere="athiéké,poulet"
+                           data-texte="l' athiéké se vend par plat">
+                            <div class="shot">
+                              <img class="cover" loading="lazy"  src="mes images/Athiéké poulet.jpg" alt="">
+                              <button type="button" class="add">Ajouter au panier</button>
+                            </div>
+                            <h3>Athiéké poulet</h3>
+                            <p class="price">2000fcfa</p>
+                        </article>
+
+                        <article class="product"
+                          data-nom="Couscous au lait"
+                          data-prix="1500"
+                          data-categorie="Vendredi"
+                          data-matiere="spagetti,viande"
+                          data-texte="le spagetti se vend par plat">
+                          <div class="shot">
+                            <img class="cover" loading="lazy"  src="mes images/spagetti.jpg" alt="">
+                            <button type="button" class="add">Ajouter au panier</button>
+                          </div>
+                          <h3>Spagetti</h3>
+                          <p class="price">1500fcfa</p>
+                        </article>
+
+                        <article class="product"
+                           data-nom="Macaroni"
+                           data-prix="1500"
+                           data-categorie="Vendredi"
+                           data-matiere="macaroni, viande"
+                           data-texte="le macaroni se vend par plat">
+                          <div class="shot">
+                            <img class="cover" loading="lazy"  src="mes images/macaroni.jpg" alt="">
+                            <button type="button" class="add">Ajouter au panier</button>
+                          </div>
+                          <h3>Macaroni</h3>
+                          <p class="price">1500fcfa</p>
+                         </article> 
+                    </div>
+                         
+                </div>
+            </div>
+        </section>
+    </main>
+
+     <footer>
+        <a href="index.html">
+            <img src="mes images/logo.png" alt="" width="100px" height="70px">
+        </a>
+
+        <div>
+             <a href="https://web.whatsapp.com/" target="_blank" >
+                <img src="mes images/whatsap.png" alt="" class="lien-icone">
+            </a>
+            <a href="https://www.tiktok.com/fr/" target="_blank">
+                <img src="mes images/tic-tac (1).png" alt="" class="lien-icone">
+            </a>
+        </div>
+    </footer>
+    <script src="script.js" defer></script>
+</body>
+</html>
